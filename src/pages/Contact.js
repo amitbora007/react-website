@@ -16,6 +16,7 @@ const Contact = () => {
               height="500px"
               frameBorder="0"
               allowFullScreen
+              title = "map"
             ></iframe>
           </div>
         </div>

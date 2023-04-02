@@ -18,7 +18,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/first_item.jpg" />
+                  <img src="img/first_item.jpg" alt="first_item" />
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/second_item.jpg" />
+                  <img src="img/second_item.jpg" alt="second_item" />
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/third_item.jpg" />
+                  <img src="img/third_item.jpg" alt="third_item" />
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/fourth_item.jpg" />
+                  <img src="img/fourth_item.jpg" alt="fourth_item"  />
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/fifth_item.jpg" />
+                  <img src="img/fifth_item.jpg" alt="fifth_item"  />
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/sixth_item.jpg" />
+                  <img src="img/sixth_item.jpg" alt="sixth_item"  />
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/seventh_item.jpg" />
+                  <img src="img/seventh_item.jpg" alt="seventh_item"  />
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/eight_item.jpg" />
+                  <img src="img/eight_item.jpg" alt="eight_item" />
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/ninth_item.jpg" />
+                  <img src="img/ninth_item.jpg" alt="ninth_item" />
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/fifth_item.jpg" />
+                  <img src="img/fifth_item.jpg" alt="fifth_item"  />
                 </div>
               </div>
             </div>
@@ -218,7 +218,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/first_item.jpg" />
+                  <img src="img/first_item.jpg" alt="first_item" />
                 </div>
               </div>
             </div>
@@ -238,7 +238,7 @@ const Work = () => {
                   </div>
                 </a>
                 <div className="image">
-                  <img src="img/second_item.jpg" />
+                  <img src="img/second_item.jpg" alt="second_item" />
                 </div>
               </div>
             </div>

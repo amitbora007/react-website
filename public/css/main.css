@@ -377,11 +377,11 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
-.first-content .fb-btn {
+.first-content .github-btn {
 	display: inline-block;
 }
 
-.first-content .fb-btn a {
+.first-content .github-btn a {
 	display: inline-block;
 	background-color: #fff;
 	border: 2px solid #fff;
@@ -394,7 +394,7 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
-.first-content .fb-btn a:hover {
+.first-content .github-btn a:hover {
 	color: #fff;
 	background-color: transparent;
 }
