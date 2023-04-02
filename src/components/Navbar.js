@@ -20,7 +20,7 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#3">
-            <i className="fa fa-pencil"></i> <em>Entries</em>
+            <i className="fa fa-pencil"></i> <em>Services</em>
           </a>
         </li>
         <li>
