@@ -3,6 +3,7 @@ import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Services from "../pages/Services";
 import Work from "../pages/Work";
+import Webinar from "../pages/Webinar";
 
 const Slides = () => {
   return (
@@ -21,6 +22,9 @@ const Slides = () => {
       </div>
       <div className="slide" id="5">
         <Contact />
+      </div>
+      <div className="slide" id="6">
+        <Webinar />
       </div>
     </div>
   );

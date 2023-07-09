@@ -33,6 +33,11 @@ const Navbar = () => {
             <i className="fa fa-envelope"></i> <em>Contact</em>
           </a>
         </li>
+        <li>
+          <a href="#6">
+            <i className="fa fa-video-camera"></i> <em>Webinars</em>
+          </a>
+        </li>
       </ul>
     </nav>
   );

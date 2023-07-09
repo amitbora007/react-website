@@ -1,4 +1,31 @@
+import axios from "axios";
+import React, { useState } from 'react';
+
 const Contact = () => {
+  let [name, setName] = useState('');
+  let [email, setEmail] = useState('');
+  let [subject, setSubject] = useState('');
+  let [content, setContent] = useState('');
+
+  const contactHandler = async(e)=> {
+    e.preventDefault();
+ 
+    const response = await axios.post("http://localhost:3001/info", {
+        name, email, subject, content
+    });
+
+    let status = response.data.status;
+
+    if(status){
+        alert(`Thanks for contacting us. We'll revert you soon.`);
+        setName('');
+        setEmail('');
+        setSubject('');
+        setContent('');
+    }else{
+        alert(`Something went wrong. Please try again later.`);
+    }
+  }
   return (
     <div className="content fifth-content">
       <div className="container-fluid">
@@ -20,8 +47,9 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
+
         <div className="col-md-6">
-          <form id="contact" action="" method="post">
+          <form id="contact" onSubmit = {contactHandler}>
             <div className="row">
               <div className="col-md-12">
                 <fieldset>
@@ -32,6 +60,8 @@ const Contact = () => {
                     id="name"
                     placeholder="Your name..."
                     required=""
+                    value={name}
+                    onChange={(e)=>setName(e.target.value)}
                   />
                 </fieldset>
               </div>
@@ -44,6 +74,8 @@ const Contact = () => {
                     id="email"
                     placeholder="Your email..."
                     required=""
+                    value={email}
+                    onChange={(e)=>setEmail(e.target.value)}
                   />
                 </fieldset>
               </div>
@@ -56,25 +88,29 @@ const Contact = () => {
                     id="subject"
                     placeholder="Subject..."
                     required=""
+                    value={subject}
+                    onChange={(e)=>setSubject(e.target.value)}
                   />
                 </fieldset>
               </div>
               <div className="col-md-12">
                 <fieldset>
                   <textarea
-                    name="message"
+                    name="content"
                     rows="6"
                     className="form-control"
-                    id="message"
-                    placeholder="Your message..."
+                    id="content"
+                    placeholder="Your message content..."
                     required=""
+                    value={content}
+                    onChange={(e)=>setContent(e.target.value)}
                   ></textarea>
                 </fieldset>
               </div>
               <div className="col-md-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" className="btn">
-                    Send Now
+                  <button type="submit" id="form-submit" className="btn" > 
+                    Send
                   </button>
                 </fieldset>
               </div>

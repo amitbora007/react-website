@@ -12,18 +12,18 @@ const About = () => {
             <p>
               Phasellus vitae faucibus orci. Etiam eleifend orci sed faucibus
               semper. Cras varius dolor et augue fringilla, eu commodo sapien
-              iaculis. Donec eget dictum tellus. <a href="#">Curabitur</a> a
+              iaculis. Donec eget dictum tellus. Curabitur a
               interdum diam. Nulla vestibulum porttitor porta.
             </p>
             <p>
               Nulla vitae interdum libero, vel posuere ipsum. Phasellus interdum
               est et dapibus tempus. Vestibulum malesuada lorem condimentum
               mauris ornare dapibus. Curabitur tempor ligula et{" "}
-              <a href="#">placerat</a> molestie.
+              placerat  molestie.
             </p>
             <p>
               Aliquam efficitur eu purus in interdum.{" "}
-              <a href="#">Etiam tincidunt</a> magna ex, sit amet lobortis felis
+              Etiam tincidunt magna ex, sit amet lobortis felis
               bibendum id. Lorem ipsum dolor sit amet, consectetur adipiscing
               elit.{" "}
             </p>

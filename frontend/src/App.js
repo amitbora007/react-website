@@ -1,4 +1,4 @@
-import logo from './assets/logo.svg';
+//import logo from './assets/logo.svg';
 import './assets/App.css';
 import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
